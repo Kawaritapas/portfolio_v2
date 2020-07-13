@@ -1,0 +1,55 @@
+#code{
+animation: code 5s ease;
+}
+@keyframes code{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+svg{
+ height: 700px;
+ width: 710px;
+}
+#nav{
+    height: auto;
+    width: auto;
+}
+
+#read{
+    margin: auto;
+    height: 400px;
+}
+
+@media screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    #read{
+   width: 700px;
+   height: 700px;
+    }
+    p{
+        font-size: x-large;
+    }
+  }
+@media screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    svg{
+      width: 1000px;
+      height: 1000px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    #nav{
+   font-size: 30px;
+    }
+  }
+#rambo{
+    height: 400px; 
+}
+  @media screen and (max-width: 1500px) {
+    /* For mobile phones: */
+    #rambo{
+   width: 800px;
+   height: 600px;
+    }
+  }
